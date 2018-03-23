@@ -19,7 +19,9 @@
     "e2e-update": "webdriver-manager update --standalone false --gecko false"
     ```
 - Copy the `app.component.spec.ts` file into `src/app` folder
-- You need to extract `this._tokenService.init` `this.initializeApp` and `this.pages` from constructor to a method called  `ngOnInit`
-- run npm install
-- run npm run test
-- if you get `typescript` incompatible errors you need to update your dependencies in package.json with the ones in `for package json.txt` file
+- You need to extract `this._tokenService.init`, `this.initializeApp` and `this.pages` from the constructor to a method 
+    called  `ngOnInit`
+- run `npm install`
+- run `npm run test`
+
+- if you get `typescript` incompatible errors you need to update your dependencies in package.json with the ones in `package.json` file
