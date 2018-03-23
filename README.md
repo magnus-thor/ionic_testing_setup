@@ -8,7 +8,7 @@
     karma karma-chrome-launcher karma-jasmine karma-jasmine-html-reporter karma-sourcemap-loader
     karma-webpack karma-coverage-istanbul-reporter istanbul-instrumenter-loader null-loader
     protractor ts-loader ts-node @types/jasmine @types/node
-    ``
+    ```
 - add these scripts to the `scripts` node in `package.json`
     ```
     "test": "karma start ./test-config/karma.conf.js",
